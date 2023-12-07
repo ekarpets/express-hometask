@@ -1,0 +1,92 @@
+{
+  "users" : [
+    {
+      "firstName": "Bob",
+      "lastName": "Doe",
+      "email": "bobdoe@example.com",
+      "password": "secretpassword",
+      "age": 30,
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345",
+        "country": "USA"
+      },
+      "createdAt": "2023-05-06T08:12:34.567Z",
+      "tags": [
+        "Sales",
+        "Marketing"
+        ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "johnsmith@example.com",
+      "password": "mypassword",
+      "age": 18,
+      "address": {
+        "street": "5th Avenue",
+        "city": "NY",
+        "state": "NY",
+        "zip": "98542",
+        "country": "USA"
+      },
+      "createdAt": "2023-06-08T08:12:34.567Z",
+      "tags": [
+        "Sales",
+        "IT"
+      ]
+    }
+  ],
+  "students" : [
+    {
+      "name": "Bob Doe",
+      "scores": [
+        {
+          "score": 16.3670523,
+          "type": "exam"
+        },
+        {
+          "score": 11.78273,
+          "type": "quiz"
+        },
+        {
+          "score": 38.740349,
+          "type": "homework"
+        }
+      ]
+    },
+    {
+      "name": "John Smith",
+      "scores": [
+        {
+          "score": 14.63179,
+          "type": "exam"
+        },
+        {
+          "score": 73.3099572,
+          "type": "quiz"
+        },
+        {
+          "score": 35.874354,
+          "type": "homework"
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "name":  "Express",
+      "description": "Express - text",
+      "type": "a",
+      "tags": ["el"]
+    },
+    {
+      "name":  "Node",
+      "description": "Node - text",
+      "type": "d",
+      "tags": []
+    }
+  ]
+}

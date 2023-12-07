@@ -1,0 +1,16 @@
+{
+  "name": "express-hometask",
+  "version": "1.0.0",
+  "description": "Create a simple Express.js application that simulates a basic API for managing user information, student statistics, and articles.",
+  "main": "index.js",
+  "scripts": {
+    "start-local": "nodemon index.js"
+  },
+  "author": "ekarpets",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "nodemon": "^3.0.2"
+  }
+}
